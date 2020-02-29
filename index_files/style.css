@@ -1,0 +1,21 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-color: #1D2C3C;
+    font-family: "Verdana", sans-serif;
+}
+main {
+    color: #6c757d;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.logo {
+    max-width: 300px;
+    margin-bottom: 100px;
+}
+.text-muted {
+    color: #a5afb9!important;
+}
