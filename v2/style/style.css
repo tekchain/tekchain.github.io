@@ -84,19 +84,20 @@ a:hover {
 }
 
 .tc-nav {
-  /*background-color: #1D2C3C;*/
+  background-color: #1D2C3C;
   /*background-color: rgba(29, 44, 60, 0.3);*/
   /*background-color: rgba(33,101,229,1);*/
   /*background-color: white;*/
   /*background-color: #b21d7b;*/
   color: white;
   font-size: 14px;
-  padding: 20px 30px;
-  margin-right: 40px;
-  margin-left: 40px;
+  padding: 10px 150px;
+  /*margin-right: 40px;*/
+  /*margin-left: 40px;*/
 }
 
 .tc-about {
+  margin-top: 50px;
   padding-left: 30%;
   padding-right: 30%;
 }
