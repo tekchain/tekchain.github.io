@@ -643,23 +643,23 @@ section {
     border-color: #ef6603;
 }
 
-@media (max-width: 768px) {
-    .features .nav-link i {
-        padding: 0;
-        line-height: 1;
-        font-size: 36px;
-    }
-}
+/*@media (max-width: 768px) {*/
+/*    .features .nav-link i {*/
+/*        padding: 0;*/
+/*        line-height: 1;*/
+/*        font-size: 36px;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 575px) {
-    .features .nav-link {
-        padding: 15px;
-    }
+/*@media (max-width: 575px) {*/
+/*    .features .nav-link {*/
+/*        padding: 15px;*/
+/*    }*/
 
-    .features .nav-link i {
-        font-size: 24px;
-    }
-}
+/*    .features .nav-link i {*/
+/*        font-size: 24px;*/
+/*    }*/
+/*}*/
 
 .features .tab-content {
     margin-top: 30px;
@@ -737,7 +737,7 @@ section {
     .cta .cta-btn-container {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
     }
 }
 
@@ -1157,6 +1157,24 @@ section {
 
 @media screen and (min-width: 768px) {
     .features-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+.t-features {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.t-feature-item a {
+    width: 100%;
+}
+
+@media screen and (min-width: 995px) {
+    .t-features {
         flex-direction: row;
         justify-content: space-between;
     }
