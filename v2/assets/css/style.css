@@ -707,7 +707,7 @@ section {
     color: #fff;
 }
 
-.cta .cta-btn {
+.cta-btn {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -717,14 +717,15 @@ section {
     padding: 12px 30px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 10px;
     color: #fff;
     background: #ef6603;
+    border: 1px solid #ef6603;
 }
 
-.cta .cta-btn:hover {
+.cta-btn:hover {
     background: #fff;
     color: #ef6603;
+    border: 1px solid #ef6603;
 }
 
 @media (max-width: 1024px) {
@@ -734,7 +735,7 @@ section {
 }
 
 @media (min-width: 769px) {
-    .cta .cta-btn-container {
+    .cta-btn-container {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -767,8 +768,8 @@ section {
     top: calc(50% - 30px);
 }
 
-.services .icon i {
-    font-size: 64px;
+.services .icon img {
+    width: 70px;
     line-height: 1;
     transition: 0.5s;
 }
@@ -995,19 +996,6 @@ section {
     padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
-    background: #ef6603;
-    border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-    background: #fc8129;
-}
-
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
@@ -1178,4 +1166,9 @@ section {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+#sent-message {
+    margin-right: 30px;
+    color: #32b16a;
 }
