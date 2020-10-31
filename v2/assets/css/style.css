@@ -630,7 +630,7 @@ section {
 }
 
 .features .nav-link h4 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     margin: 0;
 }
@@ -644,24 +644,6 @@ section {
     color: #fff;
     border-color: #ef6603;
 }
-
-/*@media (max-width: 768px) {*/
-/*    .features .nav-link i {*/
-/*        padding: 0;*/
-/*        line-height: 1;*/
-/*        font-size: 36px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 575px) {*/
-/*    .features .nav-link {*/
-/*        padding: 15px;*/
-/*    }*/
-
-/*    .features .nav-link i {*/
-/*        font-size: 24px;*/
-/*    }*/
-/*}*/
 
 .features .tab-content {
     margin-top: 30px;
@@ -1173,4 +1155,14 @@ section {
 #sent-message {
     margin-right: 30px;
     color: #32b16a;
+}
+
+.features .img-fluid, .features .img-fluid, .features .img-fluid {
+    max-width: 120px;
+}
+
+@media screen and (max-width: 994px) {
+    .features .tab-pane .row > *:first-child {
+       margin-bottom: 60px;
+    }
 }
